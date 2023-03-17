@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 1em 1em;
+  margin-top: 1em;
+  color: white;
+}
+
+
+nav > img {
+  width: 3em;
+  height: 100%;
+}
+
+.meme-generator {
+  font-size: 1.5rem;
+  margin-left: .3em;
+  margin-right: auto;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.react-course {
+  font-size: 1.2rem;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+}
+
+.main {
+  padding: 36px;
+}
+
+.form--inputs,
+.form---button {
+  font-family: "Karla", sans-serif;
+}
+
+.form--inputs {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+}
