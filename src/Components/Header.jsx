@@ -1,14 +1,17 @@
 
-import trollface from '../assets/images/troll_face.png';
+import trollFace from '../assets/images/troll_face.png';
 
 const Header = () => {
     return (
         <div className='container'>
-            <nav className='nav'>
-            <img clasName='trollFace' src={trollface} alt="troll face"/>
-            <h3 className='meme-generator'>Meme Generator</h3>
-            <p className='react-course'>React Course - Project 3</p>
-        </nav>
+            <header className="header">
+                <img 
+                    src={trollFace}
+                    className="header--image"
+                />
+                <h2 className="header--title">Meme Generator</h2>
+                <h4 className="header--project">React Course - Project 3</h4>
+            </header>
         </div>
     )
 }
